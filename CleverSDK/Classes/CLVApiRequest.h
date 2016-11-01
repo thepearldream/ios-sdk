@@ -6,14 +6,14 @@
 //
 //
 
-#import "AFHTTPSessionManager.h"
+// #import "AFHTTPSessionManager.h"
 
-@interface CLVApiRequest : AFHTTPSessionManager
+// @interface CLVApiRequest : AFHTTPSessionManager
 
-+ (instancetype)sharedManager;
+// + (instancetype)sharedManager;
 
-+ (void)endpoint:(NSString *)endpoint params:(NSDictionary *)params
-         success:(void (^)(NSURLSessionDataTask *task, id responseObject))successHandler
-         failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failureHandler;
+// + (void)endpoint:(NSString *)endpoint params:(NSDictionary *)params
+//          success:(void (^)(NSURLSessionDataTask *task, id responseObject))successHandler
+//          failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failureHandler;
 
-@end
+// @end
